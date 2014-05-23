@@ -35,7 +35,7 @@ else
 fi
 
 if [ -n "$SSH_TTY" ]; then
-  DUH_HOST_=" %n@%m"
+  DUH_HOST_=" %n@%m "
 else
   DUH_HOST_=" "
 fi
